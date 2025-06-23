@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ariane Dushime's Portfolio</title>
+    <!-- Google Fonts (Consolidated to Inter) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Clash Display -->
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" role="navigation">
+        <div class="nav-container">
+            <a href="#home" class="logo">Ariane Dushime</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Software Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero" role="region" aria-label="Introduction">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h2 class="hero-title">Software Engineer</h2>
+                <p class="hero-subtitle">I'm a Software Engineering student at AUCA passionate about using technology to solve real-world problems. I find joy in transforming ideas into functional code. I just like how coding gives us the ability to bring ideas to life and solve problems around us.</p>
+                <p>Outside coding, I enjoy writing stories, exploring new technologies online, and just surfing the Internet in general.</p>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-image"><img src="assets/profile.jpg" alt="Ariane Dushime" loading="lazy"></div>
+                    <h3>Ariane Dushime</h3>
+                    <p>Software Engineering Student at AUCA</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="about" role="region" aria-label="Skills">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">My Skills</h2>
+            <div class="skills-grid scroll-reveal">
+                <div class="skill-item"> 
+                    <strong>Python</strong>                 
+                </div>
+                <div class="skill-item"> 
+                    <strong>Java</strong>                  
+                </div>
+                <div class="skill-item">
+                    <strong>React</strong>                 
+                </div>
+                <div class="skill-item">
+                    <strong>Node.js</strong>                
+                </div>
+                <div class="skill-item">
+                    <strong>PostgreSQL</strong>               
+                </div>
+                <div class="skill-item">
+                    <strong>Git</strong>                 
+                </div>
+                <div class="skill-item">
+                    <strong>Creative Writing</strong>                 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects" role="region" aria-label="Software Projects">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">Software Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card scroll-reveal">
+                    <div class="project-content">
+                        <h3 class="project-title">House Treasures</h3>
+                        <p class="project-description">
+                            A web application to help users sell unused items around their homes. I worked on the whole project from idea to code, integrated a PostgreSQL database with Spring Boot for efficient data management, and react for frontend. The challenge is that I am not yet good with these languages.
+                        </p>
+                        <p><strong>Lessons Learned</strong>: Improved database optimization and REST API design.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">React</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/dushriane/house_treasures" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card scroll-reveal">
+                    <div class="project-content">
+                        <h3 class="project-title">Lost and Found MatchMaker Web App</h3>
+                        <p class="project-description">
+                            A web app connecting people with lost and found items, built during the <a href="https://worldslargesthackathon.devpost.com/">World’s Largest Hackathon presented by Bolt</a>. I developed the frontend using TypeScript and React, integrating with a Node.js backend. Challenges included integrating supabase and using an unfamiliar AI.
+                        </p>
+                        <p><strong>Lessons Learned</strong>: Gained experience with real-time web technologies.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">TypeScript (React)</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Supabase</span>
+                            <span class="tech-tag">Bolt AI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="https://github.com/dushriane/boltnew-lostandfound" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card scroll-reveal">
+                    <div class="project-content">
+                        <h3 class="project-title">Lost and Found MatchMaker PL/SQL</h3>
+                        <p class="project-description">
+                            A database system for matching lost items with owners on a campus, built for an academic project. I designed triggers, stored procedures, and functions using PL/SQL to automate matching. Challenges included optimizing query performance.
+                        </p>
+                        <p><strong>Lessons Learned</strong>: Mastered complex SQL query optimization.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PL/SQL</span>
+                            <span class="tech-tag">SQL Queries</span>
+                            <span class="tech-tag">Oracle Database</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/dushriane/Wed_25584_LostandFoundMatchmaker" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates" role="region" aria-label="Certificates and Awards">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">Certificates and Awards</h2>
+            <div class="certificates-grid scroll-reveal">
+                <figure class="certificate-item">
+                    <img src="assets/advancednetops.PNG" alt="Advanced Network Operations 2.0" class="certificate-img" loading="lazy">
+                    <figcaption class="certificate-info">
+                        <h3>Advanced Network Operations 2.0</h3>
+                        <p>Certificate of Completion from Internet Society (2024)</p>
+                        <p>Learned advanced network configuration and troubleshooting.</p>
+                    </figcaption>
+                </figure>
+                <figure class="certificate-item">
+                    <img src="assets/aice.png" alt="AI Career Essentials" class="certificate-img" loading="lazy">
+                    <figcaption class="certificate-info">
+                        <h3>AI Career Essentials</h3>
+                        <p>Certificate of Achievement from ALx (2024)</p>
+                        <p>Gained foundational knowledge in AI applications.</p>
+                    </figcaption>
+                </figure>
+                <figure class="certificate-item">
+                    <img src="assets/emgirls.png" alt="EMGirls Entrepreneurial Competition" class="certificate-img" loading="lazy">
+                    <figcaption class="certificate-info">
+                        <h3>EMGirls Entrepreneurial Competition</h3>
+                        <p>Certificate of Participation from EMGirls (2020)</p>
+                        <p>Developed skills in planning business ideas, working in a team, and pitching tech solutions.</p>
+                    </figcaption>
+                </figure>
+                <figure class="certificate-item">
+                    <img src="assets/psmi.PNG" alt="Professional Scrum Master I" class="certificate-img" loading="lazy">
+                    <figcaption class="certificate-info">
+                        <h3>Professional Scrum Master I</h3>
+                        <p>Professional Certificate (2025)</p>
+                        <p>Mastered agile(scrum) project management principles.</p>
+                    </figcaption>
+                </figure>
+                <figure class="certificate-item">
+                    <img src="assets/imbutoinkubito.jpg" alt="Best Performing Girls 2014" class="certificate-img" loading="lazy">
+                    <figcaption class="certificate-info">
+                        <h3>Best Performing Girls 2014</h3>
+                        <p>Award from Imbuto Foundation (2014)</p>
+                        <p>Recognized for academic excellence in Primary Leaving Exams.</p>
+                    </figcaption>
+                </figure>
+                <figure class="certificate-item">
+                    <img src="assets/Hackathon.png" alt="NextStep Hacks 2020" class="certificate-img" loading="lazy">
+                    <figcaption class="certificate-info">
+                        <h3>NextStep Hacks 2020 November Virtual Hackathon</h3>
+                        <p>Certificate of Participation (2020)</p>
+                        <p>Collaborated on a team project under time constraints.</p>
+                    </figcaption>
+                </figure>
+                <figure class="certificate-item">
+                    <img src="assets/networkingessentials.PNG" alt="Networking Essentials" class="certificate-img" loading="lazy">
+                    <figcaption class="certificate-info">
+                        <h3>Networking Essentials</h3>
+                        <p>Certificate of Course Completion from Cisco Networking Academy (2023)</p>
+                        <p>Learned network fundamentals and protocols.</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact" role="region" aria-label="Contact Information">
+        <div class="container">
+            <div class="contact-content scroll-reveal">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="contact-subtitle">I'm excited to discuss new opportunities, collaborate on projects, or share insights about technology. Reach out anytime!</p>
+                <div class="contact-cards">
+                    <!-- Email Card -->
+                    <div class="contact-card email-card">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                            </svg>
+                        </div>
+                        <h3>Email Me</h3>
+                        <p>arianedushime941@gmail.com</p>
+                        <a href="mailto:arianedushime941@gmail.com" class="contact-btn">
+                            Send Message
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <!-- LinkedIn Card -->
+                    <div class="contact-card linkedin-card">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <p>Connect with me professionally</p>
+                        <a href="https://linkedin.com/in/ariane-dushime" target="_blank" class="contact-btn">
+                            Visit Profile
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <!-- GitHub Card -->
+                    <div class="contact-card github-card">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </div>
+                        <h3>GitHub</h3>
+                        <p>Explore my code repositories</p>
+                        <a href="https://github.com/dushriane" target="_blank" class="contact-btn">
+                            View Repos
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Consolidated DOMContentLoaded listener
+        document.addEventListener('DOMContentLoaded', () => {
+            // Navbar scroll effect
+            window.addEventListener('scroll', () => {
+                const navbar = document.getElementById('navbar');
+                if (navbar) {
+                    navbar.classList.toggle('scrolled', window.scrollY > 50);
+                }
+            });
+
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const target = document.querySelector(anchor.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                });
+            });
+
+            
+
+            // Scroll reveal animation
+            const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('revealed');
+                    }
+                });
+            }, observerOptions);
+            document.querySelectorAll('.scroll-reveal').forEach(el => observer.observe(el));
+
+            // Add staggered animation delay to project cards
+            document.querySelectorAll('.project-card').forEach((card, index) => {
+                card.style.animationDelay = `${index * 0.1}s`;
+            });
+
+            // Particle generation for Skills and Certificates sections
+            const generateParticles = (sectionClass) => {
+                const section = document.querySelector(`.${sectionClass}`);
+                if (!section) return;
+                const particleCount = 8 + Math.floor(Math.random() * 3);
+                for (let i = 0; i < particleCount; i++) {
+                    const particle = document.createElement('div');
+                    particle.className = sectionClass === 'certificates' ? 'certificates-particle' : 'particle';
+                    particle.style.left = `${10 + Math.random() * 80}%`;
+                    particle.style.top = `${10 + Math.random() * 80}%`;
+                    particle.style.animationDelay = `${Math.random() * 10}s`;
+                    const size = 4 + Math.random() * 8;
+                    particle.style.width = `${size}px`;
+                    particle.style.height = `${size}px`;
+                    particle.style.opacity = 0.3 + Math.random() * 0.5;
+                    section.prepend(particle);
+                }
+            };
+            ['about', 'certificates'].forEach(generateParticles);
+
+            // Card animation
+            const cards = document.querySelectorAll('.contact-card');
+            const cardObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = 1;
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, { threshold: 0.1 });
+            cards.forEach(card => {
+                card.style.opacity = 0;
+                card.style.transform = 'translateY(20px)';
+                card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                cardObserver.observe(card);
+            });
+        });
+    </script>
+</body>
+</html>
